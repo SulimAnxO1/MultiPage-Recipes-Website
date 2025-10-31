@@ -8,11 +8,75 @@
       rel="shortcut icon"
       href="/assets/design/favicon.ico"
       type="image/x-icon" />
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/404error.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar">
+      <!-- NAV CENTER -->
+      <div class="nav-center">
+        <!-- NAV HEADER -->
+        <div class="nav-header">
+          <!-- HOME/LOGO -->
+          <a href="index.html" class="nav-logo">
+            <!-- LOGO SVG -->
+            <img src="/assets/svg/logo.svg" alt="simply recipes" />
+          </a>
+          <!-- SIDEBAR BUTTON -->
+          <button type="button" class="nav-btn btn" title="sidebar">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <!-- NAV HEADER -->
+
+        <!-- NAV LINK -->
+        <div class="nav-links">
+          <a href="/index.html" class="nav-link">home</a>
+          <a href="/html/about.html" class="nav-link">about</a>
+          <a href="/html/tags.html" class="nav-link">tags</a>
+          <a href="/html/recipes.html" class="nav-link">recipes</a>
+
+          <div class="nav-link contact-link">
+            <a href="/html/contact.html" class="btn">contact</a>
+          </div>
+        </div>
+        <!-- NAV LINK END -->
+      </div>
+      <!-- NAV CENTER END -->
+    </nav>
+    <!-- NAV BAR END -->
+
+    <!-- MAIN -->
+    <main class="page error-page">
+      <!-- ERROR SECTION -->
+      <section>
+        <!-- SVG -->
+        <img src="/assets/svg/404-error.svg" alt="404 illustration" />
+        <!-- TITLE -->
+        <div class="error-text-container">
+          <h1 id="error-text">Oops! Page not found</h1>
+          <a id="home-btn" href="/index.html">Back to home</a>
+        </div>
+      </section>
+      <!-- ERROR SECTION END -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="https://github.com/SulimAnxO1">Suli_mAn</a>
+      </p>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- JS -->
+    <script src="/script.js"></script>
+  </body>
 </html>
