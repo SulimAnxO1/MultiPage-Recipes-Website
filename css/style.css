@@ -1,4 +1,4 @@
-@import url(/css/main.css);
+@import url(/css/boilerplate.css);
 @import url(/css/normalize.css);
 @import url(/css/from.css);
 @import url(/css/navbar.css);
@@ -8,3 +8,4 @@
 @import url(/css/tags.css);
 @import url(/css/recipe.css);
 @import url(/css/media.css);
+@import url(/css/about.css);
